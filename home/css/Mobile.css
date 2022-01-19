@@ -1,0 +1,67 @@
+@media screen and (min-width: 240px) and (max-width: 480px) {
+    .container {
+        background-color: #e5e5e570;
+        width: 23.4rem;
+    }
+    .recmenuleft,
+    .recmenucenter,
+    .recfooter,
+    .nav-left,
+    .balance-left,
+    .desktop {
+        display: none;
+    }
+    .recheader {
+        background-color: #6379F4;
+    }
+    .nav-right {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+    .recbalance {
+        justify-content: space-between;
+        flex: 0.1;
+        width: 23rem;
+        display: flex;
+        background-color: transparent;
+    }
+    .balance-right {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .balance-right-button {
+        background-color: #EAEDFF;
+        border: solid 3px transparent;
+    }
+    .balance-right a {
+        color: #514F5B;
+    }
+    .recipient {
+        background: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 10px;
+    }
+    .allrecipient {
+        margin: 1rem 0;
+    }
+    .rechistory {
+        flex: 1;
+        flex-direction: column;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .alltransaction {
+        color: #6474af;
+    }
+}

@@ -1,0 +1,57 @@
+@media screen and (min-width: 240px) and (max-width: 480px) {
+    .container {
+        overflow: auto;
+        background-color: #E5E5E5;
+        width: 23.4rem;
+    }
+    .recmenuleft,
+    .recfooter,
+    .recheader {
+        display: none;
+    }
+    .wrapper-activity-upper {
+        margin: 0;
+    }
+    .rechistory {
+        border-radius: none;
+        background-color: transparent;
+        ;
+    }
+    .history-upper {
+        background-color: #6379F4;
+        height: 14rem;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .historytext {
+        background-color: #FFFFFF;
+        margin: 1rem auto;
+        width: 85%;
+    }
+    .header-history.mobile {
+        display: flex;
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin: 0.5rem 1rem;
+    }
+    .header-history.mobile figcaption {
+        margin-left: 1rem;
+    }
+    .allrecipient h1 {
+        color: #514F5B;
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+    .allrecipient {
+        margin: 0;
+    }
+    .recipient {
+        background-color: #ffffff;
+        width: 19rem;
+        margin: auto;
+    }
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,400;1,800&display=swap');
+* {
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: #fdfbfb;
+    display: flex;
+    flex-direction: column;
+}
+
+.recheader {
+    flex: 0.8;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px #dfd7d7;
+    border-radius: 15px;
+    display: flex;
+}
+
+.wrapper-nav {
+    width: 80%;
+    height: 100%;
+    margin: 0 10% 0 10%;
+}
+
+.nav-left {
+    flex: 1;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.nav-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 90px;
+    align-items: center;
+}
+
+.container-content {
+    flex: 4;
+    display: flex;
+}
+
+.recmenuleft {
+    flex: 0.5;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px #e5cbcb;
+    border-radius: 25px;
+    margin: 15px 15px 15px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recmenuleft img {
+    margin-right: 31px;
+}
+
+.wrapper-activity-upper {
+    flex: 2.5;
+    margin: 15px 90px 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittletext {
+    font-size: 42px;
+    color: #6379F4;
+    align-items: center;
+    margin-left: 90px;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    padding-left: 30px;
+    margin: 30px 30px 30px 0;
+}
+
+.profpic {
+    margin-right: 37px;
+}
+
+.name {
+    line-height: 29px;
+    color: rgba(58, 61, 66, 0.9);
+    font-size: 20px;
+    margin-right: 37px;
+}
+
+.wrapper-activity {
+    height: 70%;
+    padding: 15px 0;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.rechistory {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: #FFF;
+    height: 100%;
+    box-shadow: 0px 4px 20px #dfd7d7;
+}
+
+.allrecipient {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.recipient {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 30px;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid 3px #dfd7d71a;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px #dfd7d7;
+    transition: 0.5s;
+}
+
+.recipient:hover {
+    box-shadow: 0px 4px 20px #b2b5c5;
+    cursor: pointer;
+}
+
+.transferamount {
+    font-size: 20px;
+    color: #1EC15F;
+}
+
+.subscriptionamount {
+    font-size: 20px;
+    color: red;
+}
+
+.recfooter {
+    flex: 0.8;
+    display: flex;
+    background-color: #6379F4;
+}
+
+.footertext {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.change:hover {
+    cursor: pointer;
+    border-left: solid 5px #6379F4;
+    color: #6379F4;
+}
+
+figcaption.recipientname {
+    margin-left: 38px;
+}
+
+.recipient figure {
+    display: flex;
+}
+
+.history-upper {
+    margin: 30px 0 0 30px;
+}
+
+.historytext {
+    display: flex;
+    width: 95%;
+    border: 0;
+    padding: 10px 0;
+    line-height: 52px;
+    background: rgba(58, 61, 66, 0.1);
+    border-radius: 12px;
+}
+
+.search-input {
+    background: transparent;
+    border: 0;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.search-icon {
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
+}

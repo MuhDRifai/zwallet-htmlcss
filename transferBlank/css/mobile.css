@@ -1,0 +1,38 @@
+@media screen and (min-width: 240px) and (max-width: 480px) {
+    .container {
+        width: 23.4rem
+    }
+    .recheader,
+    .recmenuleft,
+    .recfooter,
+    .text-transfer-lower {
+        display: none;
+    }
+    .transfer-lower,
+    .wrapper-activity-upper {
+        margin: 0;
+    }
+    .transfer-upper {
+        background-color: #6379F4;
+        margin: 0;
+    }
+    .recipient {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        box-shadow: none;
+    }
+    .transfer-back {
+        display: flex;
+        margin: 0.5rem 1rem;
+    }
+    .transfer-upper h1 {
+        color: #ffffff;
+    }
+    .wrapper-input-notes {
+        width: 20rem;
+    }
+    .wrapper-input-notes input {
+        width: 78%;
+    }
+}

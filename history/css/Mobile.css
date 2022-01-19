@@ -1,0 +1,70 @@
+@media screen and (min-width: 240px) and (max-width: 480px) {
+    .container {
+        background-color: #e5e5e570;
+        width: 23.4rem;
+    }
+    .nav-right,
+    .recmenuleft,
+    .recfooter,
+    .desktop {
+        display: none;
+    }
+    .recheader {
+        background: #6379F4;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .nav-left {
+        margin: auto 0.5rem;
+    }
+    .titletext.mobile {
+        font-size: 2rem;
+        margin: auto 1.8rem;
+        color: white;
+    }
+    .back-icon.mobile {
+        display: flex;
+    }
+    .rechistory {
+        width: 23rem;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .allrecipient {
+        margin: 0;
+    }
+    .recipient {
+        background: white;
+        padding: 2rem;
+        margin: 0.25rem 0;
+        border-radius: 10px;
+    }
+    .lower-part.mobile {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+    .lower-left {
+        display: flex;
+        flex: 0.5;
+        justify-content: space-between;
+    }
+    .button {
+        background-color: #ffffff;
+        border: transparent;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+        color: #6379F4;
+    }
+    .filter.button {
+        padding: 0.5rem 1rem;
+    }
+    .allrecipient h1 {
+        color: #7A7886;
+        margin: auto 1rem;
+    }
+    .button:hover {
+        background-color: #6379F4;
+        color: #ffffff;
+    }
+}
