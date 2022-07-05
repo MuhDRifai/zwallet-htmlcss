@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 <div align="center">
-  <img height="300" src="../z-wallet/favicon_io/android-chrome-512x512.png"/>
+  <img height="300" src="./favicon_io/android-chrome-512x512.png"/>
 </div>
 
 Zwallet is a digital wallet application built using HTML5 & CSS3. This application provides features for top up, transfer, show history, profile update, change password, create pin, update pin, etc. This application also provides two top up methods, which is using payment gateway or normal tranfsfer.
