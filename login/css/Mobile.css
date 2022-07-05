@@ -34,7 +34,8 @@
         height: 2rem;
     }
     .formforgotpw {
-        margin: 0;
+        margin: -19px;
+        margin-top: -14%;
     }
     .login-button,
     .signuptext {
@@ -49,6 +50,6 @@
         align-items: center;
         color: #6474af;
         font-size: 2rem;
-        height: 21rem;
+        height: 12rem;
     }
 }

@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+img.cover {
+    margin-top: -10%;
+    height: 31.25rem;
+}
+
 .container {
     display: flex;
     top: 0px;
@@ -41,6 +46,8 @@
 
 .tittletext {
     font-size: 30px;
+    margin-top: -13%;
+    margin-left: -8rem;
     color: #FFFFFF;
 }
 
@@ -97,14 +104,14 @@ a {
 }
 
 .text1l {
-    font-size: 34px;
+    font-size: 22px;
+    margin-top: -6%;
     color: white;
 }
 
 .text2l {
-    margin-top: 3rem;
-    font-size: 16px;
-    line-height: 38px;
+    margin-top: 1rem;
+    font-size: 14px;
     color: white;
 }
 
