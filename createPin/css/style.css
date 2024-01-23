@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,400;1,800&display=swap');
+* {
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 0;
+}
+
+img.cover {
+    margin-top: -10%;
+    height: 31.25rem;
+}
+
+.container {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.boxl {
+    flex: 55%;
+    background-color: #6379F4;
+}
+
+.wrapper-boxl {
+    width: 60%;
+    margin: 75px auto;
+}
+
+.boxr {
+    flex: 45%;
+    background-color: white;
+}
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay img {
+    width: 1253px;
+    height: 1080px;
+}
+
+.tittletext {
+    font-size: 30px;
+    margin-top: -13%;
+    margin-left: -8rem;
+    color: #FFFFFF;
+}
+
+.formemail {
+    margin: 15% 0;
+    width: 100%;
+    height: 37px;
+    left: 250px;
+    top: 426px;
+}
+
+input {
+    padding-left: 39px;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    border: 0;
+    color: #171212cc;
+    border-bottom: 1.4px solid #cccc;
+}
+
+.email img {
+    position: absolute;
+    margin-top: 6px;
+    width: 24px;
+    height: 20px
+}
+
+.formforgotpw {
+    font-size: 13px;
+    color: rgb(98 78 78 / 71%);
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #88888F;
+}
+
+.login {
+    width: 99%;
+    padding: 15px;
+    background: #cccc;
+    border-radius: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 0;
+}
+
+.login:hover {
+    cursor: pointer;
+    background: #6379F4;
+    color: #FFFFFF;
+}
+
+.text1l {
+    font-size: 22px;
+    margin-top: -6%;
+    color: white;
+}
+
+.text2l {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: white;
+}
+
+.signuptext {
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #9e9e9e;
+}
+
+.text1r {
+    font-size: 24px;
+    line-height: 33px;
+    color: #3A3D42;
+}
+
+.text2r {
+    margin-top: 10%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #a79898cc;
+}
+
+.transition-ltr-1s {
+    animation-name: slidingltr;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidingltr {
+    0% {
+        transform: translate(-100px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.btn {
+    transition: 0.75s;
+}
+
+.btn:hover {
+    box-shadow: -3px -1px 33px #85cae0;
+}
+
+.wraprer-boxr {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    margin: 75px auto
+}
+
+.lower-link-1 {
+    display: flex;
+    justify-content: right;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    margin-left: 3rem;
+}
+
+.formuname {
+    margin: 15% 0 15%;
+    width: 100%;
+    height: 37px;
+    left: 250px;
+    top: 426px;
+}
+
+.uname img {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+}
+
+@media screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
+}
+
+.otp-input-wrapper {
+    width: 400px;
+    text-align: left;
+    display: inline-block;
+}
+
+.otp-input-wrapper input {
+    padding: 0;
+    width: 50px; /* Lebar masing-masing kotak */
+    height: 50px; /* Tinggi masing-masing kotak */
+    font-size: 32px;
+    font-weight: 600;
+    color: #3e3e3e;
+    background-color: transparent;
+    border: 2px solid #3e3e3e; /* Menambahkan border */
+    margin-left: 5px; /* Jarak antar kotak */
+    font-family: sans-serif !important;
+    margin-top: 2rem;
+    text-align: center; /* Menengahkan teks */
+}
+
+.otp-input-wrapper input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.otp-input-wrapper svg {
+    display: none; /* Menyembunyikan garis */
+}
