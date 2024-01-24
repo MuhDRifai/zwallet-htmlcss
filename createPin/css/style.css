@@ -227,3 +227,16 @@ a {
 .otp-input-wrapper svg {
     display: none; /* Menyembunyikan garis */
 }
+
+/* success OTP */
+img.success {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+
+p.success_otp {
+    font-size: 20px;
+    font-weight: bold;
+}
